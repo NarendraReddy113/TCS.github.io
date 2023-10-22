@@ -292,11 +292,34 @@ nav #left #tcs:hover{
 #boy .content{
     height: 450px;
     width: 500px;
+    color: black;
     background-color: white;
     position: relative;
     top: 155px;
     right: 450px;
-
+}
+#boy .content div{
+    margin-top: 70px;
+    margin-left: 100px;
+    gap: 20px;
+}
+#boy .content div h4{
+    font-size: 30px;
+    word-spacing: 0.2rem;
+    color: brown;
+}
+#boy .content div span{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+#boy .content div span i:hover{
+    transition: 4s;
 }
 /* end */
 /* footer starts */
@@ -307,7 +330,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: gr;
+    background-color: rgb(40, 38, 38);
 }
  .footer1{
    height: inherit;
@@ -323,7 +346,7 @@ footer{
 .footer1 a:hover{
     text-decoration: underline;
 }
-.footer1 a:first-child{
+.footer1 a:first-child, #More{
     font-size: 23px;
 }
 #tcsfooter{
